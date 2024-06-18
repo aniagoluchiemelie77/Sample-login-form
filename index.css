@@ -77,11 +77,12 @@ body{
     -ms-transition: .5s ease-in;
     -o-transition: .5s ease-in;
 }
-input:focus > label,
- .user-box:valid label{
-    font-size: 1.2rem;
+input:focus ~ label,
+ .user-box:valid ~ label{
+    font-size: 1rem;
     left: 0;   
     top: -1rem;
+    opacity: 0;
 }
 .submit{
     padding: 1.4rem;
